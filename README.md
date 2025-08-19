@@ -24,3 +24,18 @@ Uma API RESTful desenvolvida em **Spring Boot** que implementa autenticação de
 - Retorno de token no formato JSON
 
 ---
+
+## 🔹 Documentação da API
+
+A API possui documentação interativa via **Swagger UI**, permitindo testar os endpoints diretamente no navegador.
+
+Após rodar a aplicação, acesse:
+
+http://localhost:8080/swagger-ui/index.html
+
+Lá você pode:
+
+- Visualizar todos os endpoints disponíveis
+- Consultar parâmetros e respostas esperadas
+- Testar requisições diretamente no browser
+

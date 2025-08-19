@@ -45,19 +45,24 @@ Lá você pode:
 
 1. Clone o repositório:
 
+````
 git clone https://github.com/seu-usuario/seu-repo.git
 cd seu-repo
+````
 
 2. Configure o banco de dados (application.properties ou application.yml):
 
+```
 spring.datasource.url=jdbc:postgresql://localhost:5432/seu_banco
 spring.datasource.username=seu_usuario
 spring.datasource.password=sua_senha
 spring.jpa.hibernate.ddl-auto=update
-
+```
 
 3. Compile e rode:
 
+```
 mvn clean spring-boot:run
+```
 
 4. Teste os endpoints com Postman ou Insomnia.

@@ -20,10 +20,10 @@ public class JwtUtil {
 
     public String generateToken(String username) {
         return Jwts.builder()
-                .setSubject(username)                     // "sub" = username/email
-                .setIssuedAt(new Date())                  // Data de criação
-                .setExpiration(new Date(System.currentTimeMillis() + expirationMillis))  // Expiração
-                .signWith(getSigningKey(), SignatureAlgorithm.HS256)  // Assina com HS256
+                .setSubject(username)
+                .setIssuedAt(new Date())
+                .setExpiration(new Date(System.currentTimeMillis() + expirationMillis))
+                .signWith(getSigningKey(), SignatureAlgorithm.HS256)
                 .compact();
     }
 

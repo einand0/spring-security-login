@@ -4,10 +4,8 @@ import com.einando.crudusuarios.dtos.RegisterRequestDTO;
 import com.einando.crudusuarios.dtos.RegisterResponseDTO;
 import com.einando.crudusuarios.entities.User;
 import com.einando.crudusuarios.services.UserService;
-import org.springframework.expression.ExpressionException;
 import org.springframework.web.bind.annotation.*;
 
-import java.nio.file.attribute.UserPrincipalNotFoundException;
 import java.util.List;
 import java.util.Optional;
 
